@@ -1,5 +1,5 @@
 # Subscribe-hub
-# Subscribe-Hub
+
 
 Subscribe-Hub is a simple email newsletter application that collects user's full name and email address and stores it in an endpoint using a certain API.
 
