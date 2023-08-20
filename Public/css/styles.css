@@ -1,0 +1,83 @@
+* {
+
+  padding: 0;
+  margin: 0;
+}
+body {
+
+  background: linear-gradient(#64e6d565, #7b84e2);
+  box-sizing: border-box;
+  max-height: 100vh;
+}
+.myContainer {
+
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  height: 87%;
+  background-color: rgba(255, 255, 255, 0.452);
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    max-width: 60%;
+    max-height: 80%;
+  }
+  footer {
+    position: fixed;
+  }
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 507px) {
+  .box {
+    max-width: 45%;
+    max-height: 70%;
+  }
+  footer {
+    position: fixed;
+  }
+}
+
+/* h2 */
+.text-center {
+  margin: 0 2% 0 2%;
+}
+
+.inputForm {
+  margin-top: 10%;
+  width: 75%;
+}
+.Signin {
+  width: 100%;
+}
+.myImg {
+  border-radius: 50%;
+  width: 28%;
+  height: 28%;
+  mix-blend-mode: multiply;
+}
+.Inputname {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.Inputemail {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+footer {
+  /* position: fixed; */
+  font-style: oblique;
+  font-size: 1rem;
+  margin-top: 35%;
+  color: rgb(70, 65, 65);
+  text-align: center;
+}
