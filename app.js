@@ -18,7 +18,7 @@ app.get("/", (req,res)=>{
 })
 app.post("/", (req,res)=>{
    
-   res.setHeader("Content-Type", "text/html");
+   // res.setHeader("Content-Type", "text/html");
    const{ myName, myEmail } = req.body;
    
    // const url = "https://us21.api.mailchimp.com/3.0/lists/4a7be81434";
